@@ -1,0 +1,33 @@
+create database google_form; ---> create database
+use  google_form; ----- use database 
+
+
+------------table creation-----------
+
+create table data(
+email varchar(40),
+name varchar(40),
+age int,
+qualification varchar(40) ,
+education varchar(40), 
+study varchar(40) , 
+experiance varchar(40), 
+canada1 varchar(40), 
+canada2 varchar(40) , 
+country varchar(40), 
+goals varchar(40), 
+english_listn int, 
+english_read int, 
+english_speak int, 
+english_write int,
+fees_yn varchar(10),
+fees int,
+gic_yn varchar(10),
+gic int
+
+);
+
+
+----to view data from the table--------
+
+select * from data;
